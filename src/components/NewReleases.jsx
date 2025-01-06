@@ -29,7 +29,7 @@ const NewReleases = () => {
   return (
     <section className="my-10 px-6">
       <h2 className="text-3xl font-bold text-center mb-6">New Releases</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {games.map((game) => (
           <div key={game._id} className="bg-white shadow-md rounded-lg p-4">
             <img

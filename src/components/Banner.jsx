@@ -3,9 +3,9 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Banner = () => {
   return (
-    <div className="carousel w-full h-[400px]">
+    <div className="carousel w-full rounded-lg h-[400px]">
       {/* Slide 1 */}
-      <div id="slide1" className="carousel-item relative w-full h-[400px]">
+      <div id="slide1" className="carousel-item relative  w-full h-[400px]">
         <img
           src="https://i.ibb.co/VtNvYQB/top.jpg"
           className="w-full rounded-lg"

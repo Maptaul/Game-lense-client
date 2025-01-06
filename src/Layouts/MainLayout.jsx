@@ -7,8 +7,8 @@ import Navbar from "../components/Navbar";
 const MainLayout = () => {
   return (
     <div className="space-y-6 flex flex-col min-h-screen bg-[#2C3E50] text-white">
-      <section className="bg-[#2C3E50] text-white">
-        <nav className="w-11/12 mx-auto">
+      <section className="bg-[#2C3E50] text-white sticky top-0 z-50 ">
+        <nav className="w-11/12 mx-auto sticky top-0 z-50 ">
           <Navbar />
         </nav>
       </section>

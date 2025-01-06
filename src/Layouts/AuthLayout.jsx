@@ -5,8 +5,8 @@ import Navbar from "../components/Navbar";
 const AuthLayout = () => {
   return (
     <div className=" bg-[#2C3E50] text-white ">
-      <section className=" mb-10">
-        <nav className="w-11/12 mx-auto ">
+      <section className=" mb-10 sticky top-0 z-50 bg-[#2C3E50] text-white ">
+        <nav className="w-11/12 mx-auto sticky top-0 z-50 ">
           <Navbar />
         </nav>
       </section>
